@@ -1,0 +1,21 @@
+.Header {
+  margin: 1rem 0;
+
+  .toggle-trans {
+    text-decoration: none;
+    display: inline-block;
+    padding: 2px 8px;
+    border-style: solid;
+    border-width: 2px;
+    cursor: pointer;
+    user-select: none;
+
+    &:active {
+      border-color: ButtonShadow ButtonHighlight ButtonHighlight ButtonShadow;
+    }
+  }
+
+  img {
+    width: 2rem;
+  }
+}
