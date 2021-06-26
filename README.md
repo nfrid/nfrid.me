@@ -18,7 +18,8 @@ W.I.P: stay tuned
 
 ## Why new
 
-Maybe you know me for a long time and remember the old one on Gatsby... So why?
+Maybe you know me for a long time and remember
+[the old one on Gatsby](https://github.com/NFrid/nfrid.me-gatsby)... So why?
 
 Back in the days I wanted to have a website when all the stuffI want will be in
 one place. So I planned to have:

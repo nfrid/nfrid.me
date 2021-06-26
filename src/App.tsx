@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Tl from './components/Tl';
 import TlContext from './components/TlContext';
 import Header from './components/Header';
-import './styles/App.scss';
+// import './styles/App.scss';
 
 interface AppProps {}
 

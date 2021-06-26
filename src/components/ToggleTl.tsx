@@ -1,7 +1,6 @@
 import React, { useContext } from 'react';
 import Tl from './Tl';
 import TlContext from './TlContext';
-import langIco from '../assets/lang.svg';
 
 interface ToggleTlProps {}
 
@@ -14,9 +13,7 @@ const ToggleTl: React.FC<ToggleTlProps> = () => {
 
   return (
     <a className="toggle-trans" onClick={() => setTl(!tl)}>
-      <img src={langIco} />
-      <br />
-      <Tl data="RU">EN</Tl>
+      $LANG: <Tl data="ru">en</Tl>
     </a>
   );
 };
