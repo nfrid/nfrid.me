@@ -1,14 +1,16 @@
 import React from 'react';
 import ToggleTl from './ToggleTl';
+import SectionsMenu from './SectionsMenu';
 import '../styles/Header.scss';
 
 interface HeaderProps {}
 
 const Header: React.FC<HeaderProps> = () => (
   <div className="Header">
-    <div className="logo">
+    <a className="logo" href="/">
       nfrid.me
-    </div>
+    </a>
+    <SectionsMenu />
     <ToggleTl />
   </div>
 );

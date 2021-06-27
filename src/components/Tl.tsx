@@ -16,3 +16,13 @@ const Tl: React.FC<TlProps> = ({ children, data }) => {
 };
 
 export default Tl;
+
+/**
+ * just like Tl component, but not a component.
+ * First arg is original, second one is translation
+ */
+export const tl = (original: string, translation: string) => {
+  const { tl } = useContext(TlContext);
+
+  return tl ? translation : original;
+};

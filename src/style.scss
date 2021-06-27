@@ -10,3 +10,18 @@ body {
   color: $white;
   background-color: $gray;
 }
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: $yellow;
+  transition: 0.25s ease color;
+
+  &:hover {
+    color: $purple;
+  }
+}
+
+.Active {
+  color: $green;
+}

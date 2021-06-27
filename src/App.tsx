@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Tl from './components/Tl';
 import TlContext from './components/TlContext';
 import Header from './components/Header';
-// import './styles/App.scss';
+import Content from './components/Content';
 
 interface AppProps {}
 
@@ -16,6 +16,7 @@ const App: React.FC<AppProps> = () => {
       <div className="App">
         <Header />
         <Tl data="Привет, Мир!">Hello, World!</Tl>
+        <Content />
       </div>
     </TlContext.Provider>
   );
