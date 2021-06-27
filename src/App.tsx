@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Tl from './components/Tl';
 import TlContext from './components/TlContext';
 import Header from './components/Header';
 import Content from './components/Content';
@@ -15,7 +14,6 @@ const App: React.FC<AppProps> = () => {
     <TlContext.Provider value={context}>
       <div className="App">
         <Header />
-        <Tl data="Привет, Мир!">Hello, World!</Tl>
         <Content />
       </div>
     </TlContext.Provider>

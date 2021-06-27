@@ -24,4 +24,8 @@ a {
 
 .Active {
   color: $green;
+
+  &:hover {
+    color: $orange;
+  }
 }

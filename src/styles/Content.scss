@@ -1,7 +1,23 @@
 .Content {
   div {
-    margin-top: 5rem;
     scroll-margin-top: 5rem;
     min-height: 100vh;
+  }
+
+  .container {
+    padding: 1rem 10%;
+  }
+}
+
+.refs {
+  margin-top: 2rem;
+  text-align: right;
+
+  li {
+    list-style: none;
+  }
+
+  li + li {
+    margin-top: 0.5em;
   }
 }
