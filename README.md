@@ -5,16 +5,40 @@ other stuff.
 
 ## What does it use
 
-Welp, it is currently not even started to be developed. I'm PLANNING to use:
-
 - React.JS (surely)
-- styled-components/some shitty css framework/barebone (s)css
+- handmade scss
 - snowpack (instead of old and sad webpack)
 - typescript cuz why not when can right?
 
 ## Wanna make something similar. I forked it, what's next?
 
-W.I.P: stay tuned
+Read the code. There are some comments to help you understand it.
+
+Use your favorite package manager. I personally prefer yarn, so if you're not
+sure, you may use it too!
+
+At first, you must install all the dependencies. Run `yarn` or `npm install` to
+do this.
+
+To start the dev server you need to run `start` command, to build the app into
+the `build/` directory you have to run `build` command.
+
+```sh
+# run the dev server
+yarn start
+
+# build an app into build/ dir
+yarn build
+```
+
+To deploy the app you need to distribute your built app (build/ directory) to
+your server.
+
+I use [Vercel](https://vercel.com/), so in my case I can just run `vercel --prod`
+to deploy (or setup and deploy if it's first time I run the command). Second,
+you should change "OUTPUT DIRECTORY" in your project's dashboard to `build`.
+
+More on Vercel's documentation.
 
 ## Why new
 
