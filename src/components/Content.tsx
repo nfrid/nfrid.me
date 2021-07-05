@@ -65,7 +65,7 @@ const Content = () => (
           </a>
         </li>
         <li>
-          <a target="_blank" href="https://github.com/NFrid/nfrid.me">
+          <a target="_blank" href="https://github.com/NFrid/nfrid.me-gatsby">
             <Tl data="Старый nfrid.me (на Gatsby)">Old nfrid.me (on Gatsby)</Tl>
           </a>
         </li>
