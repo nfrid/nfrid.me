@@ -54,6 +54,38 @@ const Content = () => (
         </ul>
       </div>
     </div>
+    <div id={tl('Projects', 'Проекты')} className="container">
+      <h2>
+        <Tl data="Вебсайты">Websites</Tl>
+      </h2>
+      <ul>
+        <li>
+          <a target="_blank" href="https://github.com/NFrid/nfrid.me">
+            <Tl data="Этот вебсайт">This Website</Tl>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://github.com/NFrid/nfrid.me">
+            <Tl data="Старый nfrid.me (на Gatsby)">Old nfrid.me (on Gatsby)</Tl>
+          </a>
+        </li>
+      </ul>
+      <h2>
+        <Tl data="Тестовые задания (front-end)">Front-end test cases</Tl>
+      </h2>
+      <ul>
+        <li>
+          <a
+            target="_blank"
+            href="https://github.com/NFrid/randomusers-test-case"
+          >
+            <Tl data="Работа с Randomusers API">
+              Working with Randomusers API
+            </Tl>
+          </a>
+        </li>
+      </ul>
+    </div>
     <div id={tl('About', 'О сайте')} className="container">
       <h1>
         <Tl data="Сайт всё ещё в процессе разработки. Оставайтесь на связи 👽">

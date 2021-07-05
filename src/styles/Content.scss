@@ -7,11 +7,6 @@
   .container {
     padding: 1rem 10%;
   }
-}
-
-.refs {
-  margin-top: 2rem;
-  text-align: right;
 
   li {
     list-style: none;
@@ -20,4 +15,9 @@
   li + li {
     margin-top: 0.5em;
   }
+}
+
+.refs {
+  margin-top: 2rem;
+  text-align: right;
 }
