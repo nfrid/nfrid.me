@@ -21,16 +21,23 @@ const SectionsMenu: React.FC<ISectionsMenu> = ({ items }) => {
     if (!children) return [];
 
     let ids: string[] = [];
-    for (let i = 0; i < children!.length; i++) ids.push(children[i].id)
+    for (let i = 0; i < children!.length; i++) ids.push(children[i].id);
 
     return ids;
-  }
+  };
 
   useEffect(() => {
     const itemList = makeItemList(getItems());
     getAnchorPoints(itemList);
-    window.addEventListener('scroll', () => handleScroll(itemList));
-  }, [tl]);
+    const handleScrollCallback = () => {
+      handleScroll(itemList);
+    };
+    window.addEventListener('scroll', handleScrollCallback);
+
+    return () => {
+      window.removeEventListener('scroll', handleScrollCallback);
+    };
+  }, [tl, document.documentElement.clientHeight]);
 
   const makeItemList = (items: string[]): { [index: string]: number } => {
     return items.reduce((acc, val) => ({ ...acc, [val]: 0 }), {});
