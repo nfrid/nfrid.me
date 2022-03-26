@@ -8,7 +8,7 @@ interface HeaderProps {}
 const Header: React.FC<HeaderProps> = () => (
   <div className="Header">
     <a className="logo" href="/">
-      nfrid.me
+      nfrid.ru
     </a>
     <SectionsMenu />
     <ToggleTl />

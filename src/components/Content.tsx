@@ -27,7 +27,7 @@ const Content = () => (
             </a>
           </li>
           <li>
-            <a target="_blank" href="https://github.com/NFrid/nfrid.me">
+            <a target="_blank" href="https://github.com/NFrid/nfrid.ru">
               <Tl data="Репозиторий этого сайта">This site's repo</Tl>
             </a>
           </li>
@@ -60,13 +60,13 @@ const Content = () => (
       </h2>
       <ul>
         <li>
-          <a target="_blank" href="https://github.com/NFrid/nfrid.me">
+          <a target="_blank" href="https://github.com/NFrid/nfrid.nu">
             <Tl data="Этот вебсайт">This Website</Tl>
           </a>
         </li>
         <li>
           <a target="_blank" href="https://github.com/NFrid/nfrid.me-gatsby">
-            <Tl data="Старый nfrid.me (на Gatsby)">Old nfrid.me (on Gatsby)</Tl>
+            <Tl data="Старый вебсайт (на Gatsby)">Old website (on Gatsby)</Tl>
           </a>
         </li>
       </ul>
