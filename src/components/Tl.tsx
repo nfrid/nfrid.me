@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import TlContext from './TlContext';
 
 interface TlProps {
-  data: string;
+  data: string | React.ReactNode;
 }
 
 /**
