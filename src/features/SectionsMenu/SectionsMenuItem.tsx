@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import cn from 'classnames';
+
+import css from './SectionsMenuItem.module.scss';
 
 interface SectionsMenuItemProps {
   itemName: string,
@@ -21,7 +24,7 @@ const SectionsMenuItem: React.FC<SectionsMenuItemProps> = ({ itemName, active })
     <li>
       <a href={`#${itemName}`}
          onClick={handleClick}
-         className={active ? 'Active' : ''}>
+         className={cn({[css.active]: active})}>
         {itemName}
       </a>
     </li>

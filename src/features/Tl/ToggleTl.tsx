@@ -1,18 +1,19 @@
-import React, { useContext } from 'react';
-import Tl from './Tl';
-import TlContext from './TlContext';
+import { HTMLProps, useContext } from 'react';
 
-interface ToggleTlProps {}
+import Tl from '.';
+import TlContext from './TlContext';
 
 /**
  * button component for toggling trans state in TlContext
  * and, therefore, toggling the translation
  */
-const ToggleTl: React.FC<ToggleTlProps> = () => {
+const ToggleTl = ({
+  ...props
+}: Omit<HTMLProps<HTMLAnchorElement>, 'onClick'>) => {
   const { tl, setTl } = useContext(TlContext);
 
   return (
-    <a className="toggle-trans" onClick={() => setTl(!tl)}>
+    <a {...props} onClick={() => setTl(!tl)}>
       $LANG: <Tl data="ru">en</Tl>
     </a>
   );

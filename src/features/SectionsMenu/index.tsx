@@ -1,6 +1,8 @@
-import React, { useState, useEffect, useContext } from 'react';
+import { useState, useEffect, useContext } from 'react';
+
+import { TlContext } from '@/features/Tl';
+
 import SectionsMenuItem from './SectionsMenuItem';
-import TlContext from './TlContext';
 
 interface ISectionsMenu {
   items?: string[];
@@ -11,7 +13,7 @@ interface ISectionsMenu {
  * is an array of anchor ids, no items prop means all
  * the divs ids in an element with id 'sectionContainer'
  */
-const SectionsMenu: React.FC<ISectionsMenu> = ({ items }) => {
+const SectionsMenu = ({ items }: ISectionsMenu) => {
   const [activeItem, setActiveItem] = useState<string | null>(null);
   const { tl } = useContext(TlContext);
 

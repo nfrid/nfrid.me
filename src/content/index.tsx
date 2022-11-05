@@ -1,10 +1,10 @@
-import React from 'react';
-import Tl, { tl } from './Tl';
-import '../styles/Content.scss';
+import Tl, { tl } from '@/features/Tl';
+
+import css from './index.module.scss';
 
 const Content = () => (
-  <div className="Content" id="sectionContainer">
-    <div id={tl('Me', 'Обо мне')} className="container">
+  <div className={css.content} id="sectionContainer">
+    <div id={tl('Me', 'Обо мне')} className={css.container}>
       <h2>
         <Tl data="Добро пожаловать на мой вебсайт!">Welcome to my website!</Tl>
       </h2>
@@ -12,21 +12,21 @@ const Content = () => (
         data={
           <>
             <p>
-              Я (веб)-разработчик, писатель буквами и гордый пользователь Arch
-              Linux btw.
+              Я (веб)-разработчик, писатель буквами, продюссер UTAU и гордый
+              пользователь Arch Linux btw.
             </p>
             <p>Прикрываюсь псевдонимами Ник Пятница и undefined.</p>
           </>
         }
       >
         <p>
-          I am a (web)-developer, a Russian writer and a proud user of Arch
-          Linux btw.
+          I am a (web)-developer, a Russian writer, an UTAU producer and a proud
+          user of Arch Linux btw.
         </p>
         <p>My nickname is Nick Friday a.k.a. undefined.</p>
       </Tl>
       <br />
-      <div className="refs">
+      <div className={css.refs}>
         <h3>
           <Tl data="Полезные ссылки:">Useful links:</Tl>
         </h3>
@@ -42,7 +42,7 @@ const Content = () => (
             </a>
           </li>
           <li>
-            <a target="_blank" href="https://mastodon.ml/@nf">
+            <a target="_blank" rel="me" href="https://mastodon.ml/@nf">
               Mastodon
             </a>
           </li>
@@ -64,7 +64,7 @@ const Content = () => (
         </ul>
       </div>
     </div>
-    <div id={tl('Projects', 'Проекты')} className="container">
+    <div id={tl('Projects', 'Проекты')} className={css.container}>
       <h2>
         <Tl data="Гикование">Geek stuff</Tl>
       </h2>
@@ -127,7 +127,7 @@ const Content = () => (
         </li>
       </ul>
     </div>
-    <div id={tl('About', 'О сайте')} className="container">
+    <div id={tl('About', 'О сайте')} className={css.container}>
       <h1>
         <Tl data="Сайт всё ещё в процессе разработки">
           The website is still work-in-progress

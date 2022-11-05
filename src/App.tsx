@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
-import TlContext from './components/TlContext';
-import Header from './components/Header';
-import Content from './components/Content';
+import { useState } from 'react';
 
-interface AppProps {}
+import { TlContext } from '@/features/Tl';
+import Header from '@/features/Header';
 
-const App: React.FC<AppProps> = () => {
+import Content from './content';
+
+const App = () => {
   const navLangIsRu = navigator.language.slice(0, 2) == 'ru';
   const [tl, setTl] = useState(navLangIsRu);
   const context = { tl, setTl };
