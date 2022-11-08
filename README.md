@@ -7,38 +7,36 @@ other stuff.
 
 - React.JS (surely)
 - handmade scss
-- snowpack (instead of old and sad webpack)
+- vite ⚡⚡⚡
 - typescript cuz why not when can right?
 
 ## Wanna make something similar. I forked it, what's next?
 
-Read the code. There are some comments to help you understand it.
+Read the code. There are (hopefully) some comments to help you understand it.
 
-Use your favorite package manager. I personally prefer yarn, so if you're not
-sure, you may use it too!
+Or you can just change colorscheme in `src/colors.scss` and site's content in
+`src/content/index.tsx` and use it as is.
 
-At first, you must install all the dependencies. Run `yarn` or `npm install` to
+At first, you must install all the dependencies. Run `yarn/npm/pnpm install` to
 do this.
 
 To start the dev server you need to run `start` command, to build the app into
-the `build/` directory you have to run `build` command.
+the `dist/` directory you have to run `dist` command.
 
 ```sh
 # run the dev server
-yarn start
+pnpm start
 
-# build an app into build/ dir
-yarn build
+# build an app into dist/ dir
+pnpm build
 ```
 
-To deploy the app you need to distribute your built app (build/ directory) to
-your server.
+To deploy the app you need to distribute your built bundle (`dist/` directory)
+to your server.
 
-I use [Vercel](https://vercel.com/), so in my case I can just run `vercel --prod`
-to deploy (or setup and deploy if it's first time I run the command). Second,
-you should change "OUTPUT DIRECTORY" in your project's dashboard to `build`.
-
-More on Vercel's documentation.
+I use [Vercel](https://vercel.com/), so in my case I can just run
+`vercel --prod` to deploy (or setup and deploy if it's first time I run the
+command). More on Vercel's documentation.
 
 ## Why new
 
