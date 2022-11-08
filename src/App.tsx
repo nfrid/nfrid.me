@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 import { TlContext } from '@/features/Tl';
-import Header from '@/features/Header';
+import Header from '@/components/Header';
 
 import Content from './content';
 
