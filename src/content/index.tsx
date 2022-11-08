@@ -52,13 +52,13 @@ const Content = () => (
             </a>
           </li>
           <li>
-            <a target="_blank" href="https://dev.to/nfrid">
-              Dev.to
+            <a target="_blank" href="https://youtube.com/@fridayp">
+              YouTube (UTAU)
             </a>
           </li>
           <li>
-            <a target="_blank" href="https://litmarket.ru/nick-friday-p78868">
-              <Tl data="Литмаркет">Litmarket</Tl>
+            <a target="_blank" href="https://soundcloud.com/nfrid">
+              SoundCloud
             </a>
           </li>
         </ul>
@@ -83,16 +83,36 @@ const Content = () => (
             </Tl>
           </a>
         </li>
+      </ul>
+      <h2>Neovim</h2>
+      <ul>
         <li>
           <a target="_blank" href="https://github.com/NFrid/nvim">
-            <Tl data="Моя идеальная конфигурация neovim">
-              My perfect neovim config
-            </Tl>
+            <Tl data="Моя идеальная конфигурация">My perfect config</Tl>
           </a>
         </li>
         <li>
           <a target="_blank" href="https://github.com/NFrid/due.nvim">
-            <Tl data="Маленький neovim плагин">Lil neovim plugin</Tl>
+            <Tl data="Плагин для отображения крайнего срока в markdown">
+              A plugin to display due dates in markdown
+            </Tl>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://github.com/NFrid/treesitter-utils">
+            <Tl data="Набор полезных методов для работы с treesitter">
+              Some treesitter methods to reduce my suffering
+            </Tl>
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            href="https://github.com/NFrid/markdown-togglecheck"
+          >
+            <Tl data="До тупости простой плагин для переключения чекбоксов в markdown">
+              A stupidly simple plugin to toggle markdown check boxes
+            </Tl>
           </a>
         </li>
       </ul>
@@ -112,7 +132,7 @@ const Content = () => (
         </li>
       </ul>
       <h2>
-        <Tl data="Тестовые задания (front-end)">Front-end test cases</Tl>
+        <Tl data="Тестовые задания на фронт">Front-end test cases</Tl>
       </h2>
       <ul>
         <li>
@@ -123,6 +143,29 @@ const Content = () => (
             <Tl data="Работа с Randomusers API">
               Working with Randomusers API
             </Tl>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div id={tl('Art stuff', 'Творчество')} className={css.container}>
+      <h2>
+        <Tl data="Музыка">Music</Tl>
+      </h2>
+      <ul>
+        <li>
+          <a
+            target="_blank"
+            href="https://www.youtube.com/watch?v=KOQOR03IDg0"
+          >
+            Kikuo - Любите меня (UTAU RUS cover) ft. AICA
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            href="https://www.youtube.com/watch?v=tAWQZXjuOik"
+          >
+            Kikuo - Хороводы мертвецов (UTAU RUS cover) ft. AICA
           </a>
         </li>
       </ul>
