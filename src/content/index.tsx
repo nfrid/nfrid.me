@@ -42,7 +42,7 @@ const Content = () => (
             </a>
           </li>
           <li>
-            <a target="_blank" rel="me" href="https://mastodon.ml/@nf">
+            <a target="_blank" href="https://mastodon.ml/@nf">
               Mastodon
             </a>
           </li>
