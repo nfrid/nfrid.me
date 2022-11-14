@@ -32,12 +32,12 @@ const Content = () => (
         </h3>
         <ul>
           <li>
-            <a target="_blank" href="https://github.com/NFrid">
+            <a target="_blank" href="https://github.com/nfrid">
               <Tl data="Страница на Гитхабе">GitHub page</Tl>
             </a>
           </li>
           <li>
-            <a target="_blank" href="https://github.com/NFrid/nfrid.ru">
+            <a target="_blank" href="https://github.com/nfrid/nfrid.ru">
               <Tl data="Репозиторий этого сайта">This site's repo</Tl>
             </a>
           </li>
@@ -70,14 +70,14 @@ const Content = () => (
       </h2>
       <ul>
         <li>
-          <a target="_blank" href="https://github.com/NFrid/.dot">
+          <a target="_blank" href="https://github.com/nfrid/.dot">
             <Tl data="Мои чудесные дотфайлы (конфиги)">
               My wonderful dotfiles (configs)
             </Tl>
           </a>
         </li>
         <li>
-          <a target="_blank" href="https://github.com/NFrid/nwm">
+          <a target="_blank" href="https://github.com/nfrid/nwm">
             <Tl data="Мой оконный менеджер на основе dwm">
               My dwm-based window manager
             </Tl>
@@ -87,19 +87,19 @@ const Content = () => (
       <h2>Neovim</h2>
       <ul>
         <li>
-          <a target="_blank" href="https://github.com/NFrid/nvim">
+          <a target="_blank" href="https://github.com/nfrid/nvim">
             <Tl data="Моя идеальная конфигурация">My perfect config</Tl>
           </a>
         </li>
         <li>
-          <a target="_blank" href="https://github.com/NFrid/due.nvim">
+          <a target="_blank" href="https://github.com/nfrid/due.nvim">
             <Tl data="Плагин для отображения крайнего срока в markdown">
               A plugin to display due dates in markdown
             </Tl>
           </a>
         </li>
         <li>
-          <a target="_blank" href="https://github.com/NFrid/treesitter-utils">
+          <a target="_blank" href="https://github.com/nfrid/treesitter-utils">
             <Tl data="Набор полезных методов для работы с treesitter">
               Some treesitter methods to reduce my suffering
             </Tl>
@@ -108,7 +108,7 @@ const Content = () => (
         <li>
           <a
             target="_blank"
-            href="https://github.com/NFrid/markdown-togglecheck"
+            href="https://github.com/nfrid/markdown-togglecheck"
           >
             <Tl data="До тупости простой плагин для переключения чекбоксов в markdown">
               A stupidly simple plugin to toggle markdown check boxes
@@ -121,12 +121,12 @@ const Content = () => (
       </h2>
       <ul>
         <li>
-          <a target="_blank" href="https://github.com/NFrid/nfrid.ru">
+          <a target="_blank" href="https://github.com/nfrid/nfrid.ru">
             <Tl data="Этот вебсайт">This website</Tl>
           </a>
         </li>
         <li>
-          <a target="_blank" href="https://github.com/NFrid/nfrid.me-gatsby">
+          <a target="_blank" href="https://github.com/nfrid/nfrid.me-gatsby">
             <Tl data="Старый вебсайт (на Gatsby)">Old website (on Gatsby)</Tl>
           </a>
         </li>
@@ -138,7 +138,7 @@ const Content = () => (
         <li>
           <a
             target="_blank"
-            href="https://github.com/NFrid/randomusers-test-case"
+            href="https://github.com/nfrid/randomusers-test-case"
           >
             <Tl data="Работа с Randomusers API">
               Working with Randomusers API
