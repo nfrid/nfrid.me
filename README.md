@@ -1,4 +1,4 @@
-# [nfrid.ru](https://nfrid.ru)
+# [nfrid.me](https://nfrid.me)
 
 My personal website containing all main info about me as well as any links to my
 other stuff.

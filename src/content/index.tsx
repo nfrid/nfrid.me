@@ -37,7 +37,7 @@ const Content = () => (
             </a>
           </li>
           <li>
-            <a target="_blank" href="https://github.com/nfrid/nfrid.ru">
+            <a target="_blank" href="https://github.com/nfrid/nfrid.me">
               <Tl data="Репозиторий этого сайта">This site's repo</Tl>
             </a>
           </li>
@@ -121,7 +121,7 @@ const Content = () => (
       </h2>
       <ul>
         <li>
-          <a target="_blank" href="https://github.com/nfrid/nfrid.ru">
+          <a target="_blank" href="https://github.com/nfrid/nfrid.me">
             <Tl data="Этот вебсайт">This website</Tl>
           </a>
         </li>

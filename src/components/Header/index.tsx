@@ -10,7 +10,7 @@ interface HeaderProps {}
 const Header: React.FC<HeaderProps> = () => (
   <div className={css.header}>
     <a className={css.logo} href="/">
-      nfrid.ru
+      nfrid.me
     </a>
     <SectionsMenu />
     <ToggleTl className={css.toggleTrans} />
