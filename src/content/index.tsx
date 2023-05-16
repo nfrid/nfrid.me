@@ -47,11 +47,6 @@ const Content = () => (
             </a>
           </li>
           <li>
-            <a target="_blank" href="https://t.me/nfrid5">
-              Telegram
-            </a>
-          </li>
-          <li>
             <a target="_blank" href="https://youtube.com/@fridayp">
               YouTube (UTAU)
             </a>
@@ -59,6 +54,11 @@ const Content = () => (
           <li>
             <a target="_blank" href="https://soundcloud.com/nfrid">
               SoundCloud
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://t.me/nfrid5">
+              Telegram
             </a>
           </li>
         </ul>
@@ -157,7 +157,7 @@ const Content = () => (
             target="_blank"
             href="https://www.youtube.com/watch?v=KOQOR03IDg0"
           >
-            Kikuo - Любите меня (UTAU RUS cover) ft. AICA
+            Kikuo — Любите меня (UTAU RUS cover) ft. AICA
           </a>
         </li>
         <li>
@@ -165,7 +165,23 @@ const Content = () => (
             target="_blank"
             href="https://www.youtube.com/watch?v=tAWQZXjuOik"
           >
-            Kikuo - Хороводы мертвецов (UTAU RUS cover) ft. AICA
+            Kikuo — Хороводы мертвецов (UTAU RUS cover) ft. AICA
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            href="https://www.youtube.com/watch?v=xaqs1vGXUxs"
+          >
+            Kikuo — Торговка бедой (UTAU RUS cover) ft. AICA
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            href="https://www.youtube.com/watch?v=uaNtR-P_s6k"
+          >
+            Kikuo — Облезлый кот (UTAU RUS cover) ft. AICA
           </a>
         </li>
       </ul>
