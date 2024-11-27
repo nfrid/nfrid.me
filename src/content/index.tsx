@@ -42,7 +42,7 @@ const Content = () => (
             </a>
           </li>
           <li>
-            <a target="_blank" href="https://mastodon.ml/@nf">
+            <a target="_blank" href="https://quietplace.xyz/@nfrid">
               Mastodon
             </a>
           </li>
@@ -153,34 +153,22 @@ const Content = () => (
       </h2>
       <ul>
         <li>
-          <a
-            target="_blank"
-            href="https://www.youtube.com/watch?v=KOQOR03IDg0"
-          >
+          <a target="_blank" href="https://www.youtube.com/watch?v=KOQOR03IDg0">
             Kikuo — Любите меня (UTAU RUS cover) ft. AICA
           </a>
         </li>
         <li>
-          <a
-            target="_blank"
-            href="https://www.youtube.com/watch?v=tAWQZXjuOik"
-          >
+          <a target="_blank" href="https://www.youtube.com/watch?v=tAWQZXjuOik">
             Kikuo — Хороводы мертвецов (UTAU RUS cover) ft. AICA
           </a>
         </li>
         <li>
-          <a
-            target="_blank"
-            href="https://www.youtube.com/watch?v=xaqs1vGXUxs"
-          >
+          <a target="_blank" href="https://www.youtube.com/watch?v=xaqs1vGXUxs">
             Kikuo — Торговка бедой (UTAU RUS cover) ft. AICA
           </a>
         </li>
         <li>
-          <a
-            target="_blank"
-            href="https://www.youtube.com/watch?v=uaNtR-P_s6k"
-          >
+          <a target="_blank" href="https://www.youtube.com/watch?v=uaNtR-P_s6k">
             Kikuo — Облезлый кот (UTAU RUS cover) ft. AICA
           </a>
         </li>
