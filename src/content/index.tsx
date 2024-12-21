@@ -1,10 +1,10 @@
-import Tl, { tl } from '@/features/Tl';
+import Tl, { tl } from "@/features/Tl";
 
-import css from './index.module.scss';
+import css from "./index.module.scss";
 
 const Content = () => (
   <div className={css.content} id="sectionContainer">
-    <div id={tl('Me', 'Обо мне')} className={css.container}>
+    <div id={tl("Me", "Обо мне")} className={css.container}>
       <h2>
         <Tl data="Добро пожаловать на мой вебсайт!">Welcome to my website!</Tl>
       </h2>
@@ -42,7 +42,7 @@ const Content = () => (
             </a>
           </li>
           <li>
-            <a target="_blank" href="https://quietplace.xyz/@nfrid">
+            <a target="_blank" href="https://shitpost.poridge.club/@nfrid">
               Mastodon
             </a>
           </li>
@@ -64,7 +64,7 @@ const Content = () => (
         </ul>
       </div>
     </div>
-    <div id={tl('Projects', 'Проекты')} className={css.container}>
+    <div id={tl("Projects", "Проекты")} className={css.container}>
       <h2>
         <Tl data="Гикование">Geek stuff</Tl>
       </h2>
@@ -147,7 +147,7 @@ const Content = () => (
         </li>
       </ul>
     </div>
-    <div id={tl('Art stuff', 'Творчество')} className={css.container}>
+    <div id={tl("Art stuff", "Творчество")} className={css.container}>
       <h2>
         <Tl data="Музыка">Music</Tl>
       </h2>
@@ -174,7 +174,7 @@ const Content = () => (
         </li>
       </ul>
     </div>
-    <div id={tl('About', 'О сайте')} className={css.container}>
+    <div id={tl("About", "О сайте")} className={css.container}>
       <h1>
         <Tl data="Сайт всё ещё в процессе разработки">
           The website is still work-in-progress
